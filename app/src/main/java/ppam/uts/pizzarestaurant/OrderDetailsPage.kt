@@ -27,7 +27,6 @@ class OrderDetailsPage : AppCompatActivity() {
         val priceString = "Rp.$orderPrice,00"
         binding?.priceTag?.text = priceString
 
-        val deliveryMethod = binding?.deliveryMethodGroup
         val takeawayCheck = binding?.deliveryRadio
         val deliveryCheck = binding?.takeawayRadio
         val doneButton = binding?.doneButton
@@ -50,7 +49,8 @@ class OrderDetailsPage : AppCompatActivity() {
                     message = getString(R.string.message_delivery_format, customerName, selectedStore, orderName)
                 }
 
-                deliveryMethod?.isEnabled = false
+                takeawayCheck?.isEnabled = false
+                deliveryCheck?.isEnabled = false
                 orderMessage?.text = message
                 orderMessage?.visibility = View.VISIBLE
                 doneButton?.visibility = View.GONE
