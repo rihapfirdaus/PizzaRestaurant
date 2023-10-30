@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PizzaRestaurant</string>
+    <string name="short_desc_pizza">Cocok bagi anda yang ingin merasakan pizza original dengan taburan nkeju dan daging asap yang lezat</string>
+    <string name="short_desc_spaghetti">Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental</string>
+    <string name="short_desc_burger">Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal</string>
+    <string name="short_desc_steak">Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat</string>
+    <string name="btn_submit">Submit</string>
+    <string name="name_hint">Please fill your name</string>
+    <string name="label_store">Store</string>
+    <string name="label_name">Your Name</string>
+    <string name="cd_first_image">Icon Apps</string>
+    <string name="cd_icon_profile">icon profile</string>
+    <string name="cd_icon_maps">icon maps</string>
+    <string name="label_location">Location</string>
+    <string name="label_find_on_maps">Find on Maps</string>
+    <string name="cd_image_restaurant">image restaurant</string>
+    <string name="btn_see_menus">See Menus</string>
+    <string name="hint_name_of_store">name of store</string>
+    <string name="label_store_text">Store</string>
+    <string name="hint_hello_user">Hello, User</string>
+    <string name="label_od_nama">Nama:</string>
+    <string name="label_od_store">Store:</string>
+    <string name="label_od_order">Pesanan:</string>
+    <string name="hint_od_order">order of customer</string>
+    <string name="label_od_price">Harga:</string>
+    <string name="hint_od_price">price of order</string>
+    <string name="label_order_detail">Order Detail</string>
+    <string name="hint_name_of_customer">name of customer</string>
+    <string name="label_pengiriman">Pengiriman</string>
+    <string name="label_ambil_sendiri">Ambil sendiri</string>
+    <string name="label_fast_delivery">Fast Delivery (minimal 30 menit sampai)</string>
+    <string name="message_succes_order">Terimakasih Pa Asep sudah memesan di toko kami, pesanan Pepperoni Pizza anda dikirim menggunakan Fast Delivery</string>
+    <string name="btn_done">Done</string>
+    <string name="cd_pilih_menu">Pilih menu</string>
+    <string name="hint_details_menu">details of menu</string>
+    <string name="hint_name_menu">name of menu</string>
+    <string name="message_take_away_format">Terimakasih %1$s sudah memesan di pizza restaurant %2$s kami, pesanan %3$s anda akan kami siapkan agar anda bisa mengambilnya segera</string>
+    <string name="message_delivery_format">Terimakasih %1$s sudah memesan di pizza restaurant %2$s kami, pesanan %3$s anda akan dikirim menggunakan fast delivery</string>
+    <string name="btn_back_to_dashboard">Back To Dashboard</string>
+
+    <string-array name="store_options">
+        <item>Cihampeulas</item>
+        <item>Cibiru</item>
+    </string-array>
+</resources>

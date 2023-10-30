@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/menu_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/img_pizza"
+        />
+    <LinearLayout
+        android:id="@+id/menu_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp">
+        <TextView
+            android:id="@+id/menu_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_name_menu"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/menu_short_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:justificationMode="inter_word"
+            android:text="@string/hint_details_menu"/>
+
+    </LinearLayout>
+
+</LinearLayout>
