@@ -9,6 +9,7 @@
 
     <TextView
         android:id="@+id/order_title"
+        android:textColor="@color/text_color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/label_order_detail"
@@ -151,6 +152,7 @@
 
     <TextView
         android:id="@+id/delivery_title"
+        android:textColor="@color/text_color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/label_pengiriman"
@@ -185,6 +187,7 @@
 
     <Button
         android:id="@+id/done_button"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -199,6 +202,7 @@
 
     <Button
         android:id="@+id/backhome_button"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -222,6 +226,7 @@
         android:layout_marginVertical="@dimen/VerticalMargin"
         android:textAlignment="center"
         android:justificationMode="inter_word"
+        android:textColor="@color/black"
         android:textColorHint="@color/dark_grey"
         android:hint="@string/message_succes_order"
         app:layout_constraintBottom_toTopOf="@+id/backhome_button"

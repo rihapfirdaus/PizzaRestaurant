@@ -122,6 +122,7 @@
     </LinearLayout>
     <Button
         android:id="@+id/show_menu_button"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"

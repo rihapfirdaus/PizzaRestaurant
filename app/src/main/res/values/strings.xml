@@ -4,6 +4,10 @@
     <string name="short_desc_spaghetti">Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental</string>
     <string name="short_desc_burger">Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal</string>
     <string name="short_desc_steak">Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat</string>
+    <string name="long_desc_pizza">Pepperoni pizza adalah salah satu varian pizza yang paling populer di seluruh dunia. Pizza ini memiliki topping daging pepperoni sapi asli yang memberikan cita rasa gurih dan pedas yang khas. Di Italia, pepperoni disebut sebagai "salame piccante" yang berarti "salami pedas," dan pizza ini adalah salah satu kegemaran orang Amerika. Topping pepperoni yang renyah dan berminyak, bersama dengan lapisan keju mozzarella yang meleleh sempurna di atas adonan pizza yang gurih, membuat pizza ini menjadi pilihan sempurna untuk santap siang ataupun malam Anda. Apakah Anda ingin menikmati sendiri atau berbagi dengan teman-teman, pizza pepperoni selalu menjadi pilihan yang lezat dan memuaskan.</string>
+    <string name="long_desc_spaghetti">Spaghetti adalah hidangan pasta klasik yang selalu mengundang selera. Spaghetti al dente yang digabungkan dengan saus tomat segar yang kaya dengan rempah-rempah dan bumbu, disajikan dengan irisan daging sapi sapi atau daging giling yang lezat. Hidangan ini merupakan perpaduan yang sempurna antara tekstur lembut dan cita rasa gurih dari daging, yang diselaraskan dengan manisnya saus tomat yang harum. Spaghetti adalah hidangan yang cocok untuk semua selera, dari anak-anak hingga orang dewasa. Setiap gigitan adalah perjalanan rasa ke Italia yang sejati.</string>
+    <string name="long_desc_burger">Burger adalah ikon makanan cepat saji yang selalu memikat selera makan Anda. Pilihan hamburger kami menggunakan daging sapi segar yang dipadukan dengan berbagai bahan pilihan, seperti selada segar, tomat merah matang, irisan bawang putih, dan keju leleh yang melimpah. Semua itu disajikan di antara roti burger yang empuk dan gurih. Dengan setiap gigitan, Anda akan merasakan perpaduan cita rasa yang kaya, dari gurihnya daging sapi hingga kesegaran sayuran, semua disatukan dalam satu sajian lezat. Ini adalah burger yang akan memuaskan selera makan Anda dan membawa Anda pada perjalanan rasa yang tak terlupakan.</string>
+    <string name="long_desc_steak">Steak adalah pilihan utama untuk pencinta daging yang menginginkan cita rasa yang istimewa. Steak kami adalah potongan daging sapi pilihan yang telah dipanggang sempurna, menciptakan lapisan luar renyah dan interior yang lembut. Disajikan dengan pilihan saus khusus dan pelengkap, steak ini adalah pernyataan cita rasa yang tak terbantahkan. Daging sapi yang dipilih dengan teliti dipadukan dengan gurihnya bumbu panggang, menciptakan perpaduan yang sempurna antara cita rasa gurih dan kelembutan. Hidangan ini cocok untuk perayaan istimewa atau malam makan romantis yang penuh kenikmatan.</string>
     <string name="btn_submit">Submit</string>
     <string name="name_hint">Please fill your name</string>
     <string name="label_store">Store</string>
@@ -39,7 +43,7 @@
     <string name="btn_back_to_dashboard">Back To Dashboard</string>
 
     <string-array name="store_options">
-        <item>Cihampeulas</item>
+        <item>Cihampelas</item>
         <item>Cibiru</item>
     </string-array>
 </resources>

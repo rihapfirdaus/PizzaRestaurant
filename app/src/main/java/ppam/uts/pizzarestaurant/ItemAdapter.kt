@@ -28,7 +28,7 @@ class ItemAdapter(private val items: List<MenuModel>) : RecyclerView.Adapter<Ite
         if (isItemSelected) {
             holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.selectedColor))
         } else {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, android.R.color.white))
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, android.R.color.transparent))
         }
 
         holder.itemView.setOnClickListener {
