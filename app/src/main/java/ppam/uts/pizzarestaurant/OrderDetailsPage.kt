@@ -27,17 +27,11 @@ class OrderDetailsPage : AppCompatActivity() {
         val priceString = "Rp.$orderPrice,00"
         binding?.priceTag?.text = priceString
 
-        val takeawayCheck = binding?.deliveryRadio
-        val deliveryCheck = binding?.takeawayRadio
+        val takeawayCheck = binding?.takeawayRadio
+        val deliveryCheck = binding?.deliveryRadio
         val doneButton = binding?.doneButton
         val orderMessage = binding?.orderMessage
         val backToDashboard = binding?.backhomeButton
-
-        if (takeawayCheck?.isChecked == true){
-            deliveryCheck?.isChecked == false
-        } else if (deliveryCheck?.isChecked == true){
-            takeawayCheck?.isChecked == false
-        }
 
         doneButton?.setOnClickListener {
             if (takeawayCheck?.isChecked == true || deliveryCheck?.isChecked == true){
